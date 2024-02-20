@@ -1,0 +1,175 @@
+#titulo {
+    color: tomato;
+}
+
+.especial{
+    color: red;
+}
+
+.texto{
+    color: aquamarine;
+}
+
+div p{
+    color: aqua;
+}
+
+div h2, h3{
+    color: brown;
+}
+
+*{
+    font-size: medium;
+}
+
+/* Este es un comentario
+   de varias lineas
+*/
+
+.color{
+    /*border: 4px blueviolet inset;*/
+    /*
+    solid
+    dotted
+    double
+    dashed
+    groove
+    ridge
+    outset
+    none
+    hidden
+    inset
+    */
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+}
+
+#fondo {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: red;
+    /*opacity: 0.3;*/
+    height: 400px;
+    background: red url('img/cofee.jpg') repeat-y center bottom;
+    background-size: 400px 400px;
+    text-align: center;
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text{
+    font-family: 'Oswald' ;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px  5px blue;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: red;
+}
+
+ul{
+    background-color: cyan;
+    list-style: georgian;
+    /*padding-left: 0;*/
+    /*list-style-position: inside;*/
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid cornflowerblue;
+    padding: 5px;
+}
+
+th{
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #eee;
+}
+
+tr:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+span{
+    display: block;
+   /* display: none;*/
+   /*visibility: hidden;*/
+   max-width: 300px;
+   background-color: wheat;
+}
+
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px darkblue dashed;
+}
+
+.right{
+    float: right;
+}
+
+.container{
+    height: 200px;
+}
+
+.column{
+    margin: 0;
+    padding: 10px 0px;
+    width: 33.3%;
+}
+
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: orange;
+}
+
+.center{
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: cyan;
+}
+
+
